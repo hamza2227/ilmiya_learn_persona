@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+$main: #f36737;
+$main-bg: linear-gradient(90deg, #e95567 0%, #f36735 100%);
+$card-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+@media only screen and (max-width: 1300px) {
+  .hero-section .content {
+    padding-top: 200px;
+    margin-left: 16%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .header-row .header-right .menu .nav-item,
+  .header-row .header-left .menu .nav-item {
+    margin-left: 30px;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .header .navbar .nav-link {
+    padding: 10px 20px !important;
+  }
+  h1 {
+    font-size: 34px !important;
+  }
+  h2 {
+    font-size: 28px !important;
+  }
+  .hero-section .content {
+    margin-left: 24%;
+    padding-top: 180px;
+  }
+}
+// @media (min-width: 1200px) {
+
+// .container,
+//   .container-lg,
+//   .container-md,
+//   .container-sm {
+//     max-width: 1100px !important;
+//   }
+// }
+
+@media only screen and (max-width: 991px) {
+  .Features-section,
+  .pricing-plan-section,
+  .featured-job-section,
+  .experience-section,
+  .job-today-section,
+  .get-in-touch-section,
+  .about-us-section,
+  .our-team-section,
+  .core-alues-section {
+    padding: 40px 0px;
+  }
+  .hero-section .content h1 {
+    font-size: 38px !important;
+    font-weight: 700 !important;
+  }
+  .about-us-section .vector {
+    margin-top: 30px;
+  }
+  .content {
+    position: relative;
+  }
+  .core-alues-section .vector {
+    padding-top: 30px;
+  }
+  .our-team-section .our-team-slider .owl-row h5 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .our-team-section .our-team-slider .owl-row p {
+    font-size: 14px;
+  }
+  .Features-section .Features-cards-outer {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .header .navbar .nav-link {
+    padding: 10px 5px !important;
+    .btn {
+      padding: 0px !important;
+      background: transparent !important;
+      height: auto !important;
+      color: black !important;
+      width: auto !important;
+      font-weight: 500;
+    }
+  }
+  .header {
+    background-color: white;
+    box-shadow: $card-shadow;
+  }
+  .order1 {
+    order: 2 !important;
+  }
+  .order2 {
+    order: 1 !important;
+  }
+  .hero-section .main-vector {
+    display: none !important;
+  }
+  .hero-section .content {
+    margin-left: 0px;
+    padding: 160px 20px 100px;
+  }
+
+  .map-section .right-img {
+    padding-top: 40px;
+  }
+  .experience-section .vector {
+    padding-bottom: 30px;
+  }
+
+  .job-today-section .get-job-form {
+    margin-top: 30px;
+  }
+  .footer {
+    padding-top: 40px;
+  }
+  .featured-job-section .pt-5 {
+    padding-top: 0px !important;
+  }
+  .MaskGroup23,
+  .MaskGroup24,
+  .MaskGroup26 {
+    height: 200px !important;
+  }
+  .featured-job-section .MaskGroup24 {
+    top: 70%;
+  }
+  .hero-section .MaskGroup23 {
+    top: 80%;
+  }
+  .map-section .record {
+    .content {
+      width: 75%;
+      padding-right: 10px;
+      margin-right: 0px;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      p {
+        margin-bottom: 0px;
+        font-size: 12px !important;
+      }
+    }
+    .count {
+      width: 25%;
+      padding-left: 15px;
+      margin-left: 0px;
+    }
+  }
+  .container {
+    padding: 0px 20px !important;
+  }
+  .map-section {
+    padding: 260px 0px 0px;
+  }
+  .featured-job-section .content .right-text {
+    padding-bottom: 30px;
+  }
+  .map-section .testimonial .carousel-item .testimonial-content .profile {
+    height: 70px;
+  }
+  .pricing-plan-section .company-logos .logo img {
+    height: 45px;
+  }
+  .getstarted-card {
+    margin-bottom: 25px;
+    padding: 20px !important;
+  }
+  .footer .f-col {
+    margin-top: 30px;
+  }
+  .get-started-section {
+    padding: 100px 0px;
+  }
+  .getstarted1-section {
+    padding: 100px 0px;
+  }
+  .signup-section {
+    padding: 100px 0px;
+  }
+  .getstarted-card {
+    .form-control {
+      margin: 10px 0px !important;
+    }
+  }
+  .jobs-outer .find-job-section .form-section .input-field {
+    margin-bottom: 20px;
+  }
+  .jobs-outer .tab-content .search-form .top-filter {
+    flex-direction: column;
+  }
+  .jobs-outer .tab-content .search-form .top-filter .left-options {
+    margin-bottom: 10px;
+  }
+  .container-fluid {
+    padding: 0px 20px !important;
+  }
+  .job-cards-section .job-card .card-icons {
+    position: absolute;
+    top: 20p;
+    right: 20px;
+  }
+  .job-details-outer .job-detail-content {
+    border-left: none !important;
+    border-top: 2px solid lightgray;
+    padding-left: 0px !important;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-section .content {
+    margin-left: 0px;
+    padding: 160px 20px 50px;
+  }
+  .job-cards-section .job-card {
+    flex-direction: column;
+  }
+  .job-cards-section .job-card .content {
+    padding: 20px 0px 0px !important;
+    width: 100%;
+  }
+  .navbar-brand {
+    .logo {
+      height: 35px;
+    }
+  }
+  h1 {
+    font-size: 30px !important;
+  }
+  h2 {
+    font-size: 24px !important;
+  }
+}
