@@ -112,9 +112,9 @@ body {
 // ......Persona.................
 
 
-// .... Persona Sidebar .........
+// .... Persona profile Sidebar .........
 
-.forgot_psw_page {
+._profile {
   // height: 100vh;
   width: 100%;
   display: flex;
@@ -223,7 +223,7 @@ body {
       align-items: center;
       margin-right: 21px;
 
-      i{
+      i {
         font-size: 30px;
       }
     }
@@ -248,86 +248,785 @@ body {
   }
 }
 
+// End......
+
+
+
+// Profile Fill detail
+
+.pro_fill_detail {
+  margin: 40px;
+  // width: 100%;
+  // height: 100vh;
+  background: #FFFFFF;
+  border: 1px solid #A3A3A5;
+  border-radius: 6px;
+
+  ._close_window {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 40px 36px;
+
+    i {
+      font-size: 23px;
+      cursor: pointer;
+    }
+  }
+
+  .fill_detail_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    ._user_profile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 32px;
+
+      p {
+        margin-top: 32px;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #202223;
+      }
+    }
+
+    ._user_stacks {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 48px;
+
+      .user_day_streaks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 24px;
+
+        p {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 22px;
+          color: #11142D;
+          margin: 0;
+          padding-left: 8px;
+
+          span {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #808191;
+            margin-left: 6px;
+          }
+        }
+      }
+    }
+
+    .change_profile_btn {
+      width: 420px;
+      padding: 16px 0;
+      background: #008AFF;
+      border-radius: 7px;
+      text-align: center;
+      border: none;
+      outline: none;
+      color: #FFFFFF;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 150px;
+    }
+
+  }
+}
+
+// End
+
+
+// Profile Choose Avatar
+
+.pro_choose_avatar {
+  margin: 40px;
+  // width: 100%;
+  // height: 100vh;
+  background: #FFFFFF;
+  border: 1px solid #A3A3A5;
+  border-radius: 6px;
+
+  ._close_window {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 40px 36px;
+
+    i {
+      font-size: 23px;
+      cursor: pointer;
+    }
+  }
+
+  .fill_detail_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    ._user_profile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // flex-direction: column;
+      margin-bottom: 32px;
+
+      .auhtor_name {
+        margin-left: 14px;
+
+        h2 {
+          margin-top: 0px;
+          margin-bottom: 12px;
+          font-weight: 700;
+          font-size: 39px;
+          line-height: 48px;
+          letter-spacing: -0.04em;
+          color: #202223;
+        }
+
+        p {
+          font-weight: 600;
+          font-size: 19px;
+          line-height: 24px;
+          letter-spacing: -0.02em;
+          color: #6D7175;
+          margin: 0;
+
+        }
+      }
+    }
+
+    ._user_stacks {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 48px;
+
+      .user_day_streaks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 24px;
+
+        p {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 22px;
+          color: #11142D;
+          margin: 0;
+          padding-left: 8px;
+
+          span {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #808191;
+            margin-left: 6px;
+          }
+        }
+      }
+    }
+
+    .change_profile_btn {
+      width: 420px;
+      padding: 16px 0;
+      background: #008AFF;
+      border-radius: 7px;
+      text-align: center;
+      border: none;
+      outline: none;
+      color: #FFFFFF;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 150px;
+    }
+
+    .avatar_tabs {
+      width: 100%;
+
+      .mb-3 {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 0 70px !important;
+      }
+
+      .nav-tabs {
+        border: none !important;
+      }
+
+      .nav-link {
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .0s ease-in-out !important;
+        padding: 10px 90px !important;
+        border: 1px solid #fff;
+        font-weight: 600 !important;
+        font-size: 19px !important;
+        line-height: 24px !important;
+        letter-spacing: -0.02em !important;
+        color: #BFBFBF !important;
+        border-bottom: 2px solid #BFBFBF;
+      }
+
+      .nav-link.active {
+        border-bottom: 2px solid #008AFF;
+        font-weight: 600 !important;
+        font-size: 19px !important;
+        line-height: 24px !important;
+        letter-spacing: -0.02em !important;
+        color: #008AFF !important;
+        outline: none !important;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+      }
+    }
+
+    .tab-content>.active {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+
+      ._avatars_collection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      ._avatars_collection img {
+        margin: 15px;
+      }
+    }
+
+    .tab-content>.tab-pane {
+      // display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+
+      ._patches_collection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      ._patches_collection img {
+        margin: 15px;
+      }
+    }
+
+
+
+
+
+  }
+}
+
+// End
+
+
+
+// Media Queries (Persona profile Sidebar)
+
 @media only screen and (max-width: 450px) {
 
-  .forgot_psw_page .forgot_psw_page_container .next_btn {
+  ._profile ._profile_container .next_btn {
     height: 38px;
   }
 
-  .offcanvas.offcanvas-end{
+  .offcanvas.offcanvas-end {
     width: 100% !important;
   }
 
-  .offcanvas-header{
+  .offcanvas-header {
     padding: 10px 20px !important;
   }
 
-  .offcanvas-header .offcanvas-title{
+  .offcanvas-header .offcanvas-title {
     font-size: 16px;
   }
 
-  .offcanvas-header .offcanvas-title h5{
+  .offcanvas-header .offcanvas-title h5 {
     font-size: 12px;
   }
 
-  .offcanvas-body{
+  .offcanvas-body {
     padding: 10px 20px !important;
   }
 
-  .offcanvas-body ._weather h4{
+  .offcanvas-body ._weather h4 {
     font-size: 28px;
   }
 
-  .offcanvas-body ._weather img{
+  .offcanvas-body ._weather img {
     width: 65px !important;
   }
 
-  .offcanvas-body ._profile{
+  .offcanvas-body ._profile {
     margin-top: 15px;
   }
 
-  .offcanvas-body ._profile{
+  .offcanvas-body ._profile {
     padding: 10px 28px 10px 10px;
   }
 
-  .offcanvas-body ._profile .author_name img{
+  .offcanvas-body ._profile .author_name img {
     width: 40px !important;
     margin-right: 8px;
   }
 
-  .offcanvas-body ._profile .author_name h5{
+  .offcanvas-body ._profile .author_name h5 {
     font-size: 14px;
   }
 
-  .offcanvas-body ._profile Button{
+  .offcanvas-body ._profile Button {
     font-size: 14px;
   }
 
-  .offcanvas-body ._profile Button i{
+  .offcanvas-body ._profile Button i {
     font-size: 14px;
     margin-right: 8px;
   }
 
-  .offcanvas-body ._description{
+  .offcanvas-body ._description {
     margin-top: 10px;
     padding: 14px 12px;
   }
 
-  .offcanvas-body ._description .author_name{
+  .offcanvas-body ._description .author_name {
     margin-right: 12px;
   }
 
-  .offcanvas-body ._description .author_name i{
+  .offcanvas-body ._description .author_name i {
     font-size: 23px;
   }
 
-  .offcanvas-body ._description .author_desc h4{
+  .offcanvas-body ._description .author_desc h4 {
     font-size: 16px;
   }
 
-  .offcanvas-body ._description .author_desc p{
+  .offcanvas-body ._description .author_desc p {
     font-size: 12px;
   }
 }
 
 // ....End...
+
+// Media Queries (Profile Fill detail)
+
+@media only screen and (max-width: 991px) {
+  .pro_fill_detail ._close_window {
+    padding: 30px 26px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile {
+    margin-bottom: 28px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile img {
+    width: 162px !important;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile p {
+    margin-top: 28px;
+    font-size: 35px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks {
+    margin: 0 22px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks img {
+    width: 45px !important;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks p,
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks p span {
+    font-size: 16px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks {
+    margin-bottom: 45px;
+  }
+
+  .pro_fill_detail .fill_detail_container .change_profile_btn {
+    width: 400px;
+    line-height: 16px;
+    margin-bottom: 140px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .pro_fill_detail ._close_window {
+    padding: 20px 16px;
+  }
+
+  .pro_fill_detail ._close_window i {
+    font-size: 20px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile {
+    margin-bottom: 24px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile img {
+    width: 102px !important;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile p {
+    margin-top: 16px;
+    font-size: 26px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks {
+    margin: 0 18px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks img {
+    width: 35px !important;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks p,
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks p span {
+    font-size: 15px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks {
+    margin-bottom: 30px;
+  }
+
+  .pro_fill_detail .fill_detail_container .change_profile_btn {
+    width: 350px;
+    line-height: 16px;
+    margin-bottom: 100px;
+    padding: 12px 0;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .pro_fill_detail {
+    margin: 12px;
+  }
+
+  .pro_fill_detail ._close_window {
+    padding: 10px 8px;
+  }
+
+  .pro_fill_detail ._close_window i {
+    font-size: 16px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile {
+    margin-bottom: 12px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile img {
+    width: 72px !important;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile p {
+    margin-top: 12px;
+    font-size: 22px;
+    line-height: 38px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks {
+    margin: 0 20px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks img {
+    width: 25px !important;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks p {
+    font-size: 13px;
+    padding-left: 4px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks p span {
+    font-size: 13px;
+    margin-left: 3px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks {
+    margin-bottom: 20px;
+  }
+
+  .pro_fill_detail .fill_detail_container .change_profile_btn {
+    width: 250px;
+    line-height: 14px;
+    margin-bottom: 60px;
+    padding: 8px 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+
+
+@media only screen and (max-width: 390px) {
+  .pro_fill_detail {
+    margin: 10px;
+  }
+
+  .pro_fill_detail ._close_window {
+    padding: 8px 6px;
+  }
+
+  .pro_fill_detail ._close_window i {
+    font-size: 16px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile {
+    margin-bottom: 10px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile img {
+    width: 52px !important;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks {
+    margin: 0 16px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks img {
+    width: 20px !important;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks p {
+    font-size: 12px;
+    padding-left: 2px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks p span {
+    font-size: 12px;
+    margin-left: 2px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_stacks {
+    margin-bottom: 20px;
+  }
+
+  .pro_fill_detail .fill_detail_container .change_profile_btn {
+    width: 200px;
+    line-height: 13px;
+    margin-bottom: 40px;
+    padding: 8px 0;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+// End.....
+
+
+// Media Queries (Profile Choose Avatar)
+
+@media only screen and (max-width: 991px) {
+  .pro_choose_avatar ._close_window {
+    padding: 30px 26px;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile {
+    margin-bottom: 28px;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile img {
+    width: 80px !important;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile .auhtor_name h2 {
+    font-size: 35px;
+    margin-bottom: 8px;
+    line-height: 30px;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile .auhtor_name p {
+    font-size: 17px;
+  }
+
+  .pro_choose_avatar .fill_detail_container .avatar_tabs .nav-link,
+  .pro_choose_avatar .fill_detail_container .avatar_tabs .nav-link.active {
+    padding: 10px 80px !important;
+    font-size: 17px !important;
+    line-height: 22px !important;
+  }
+
+  .pro_choose_avatar .fill_detail_container .tab-content>.tab-pane ._avatars_collection img {
+    width: 80px !important;
+    margin: 12px;
+  }
+
+  .pro_choose_avatar .fill_detail_container .tab-content>.active ._avatars_collection img {
+    width: 80px !important;
+    margin: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pro_choose_avatar ._close_window {
+    padding: 20px 16px;
+  }
+
+  .pro_choose_avatar ._close_window i {
+    font-size: 20px;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile {
+    margin-bottom: 24px;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile img {
+    width: 70px !important;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile .auhtor_name h2 {
+    font-size: 24px;
+    margin-bottom: 6px;
+    line-height: 22px;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile .auhtor_name p {
+    font-size: 15px;
+  }
+
+  .pro_choose_avatar .fill_detail_container .avatar_tabs .nav-link,
+  .pro_choose_avatar .fill_detail_container .avatar_tabs .nav-link.active {
+    padding: 8px 55px !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+
+  .pro_choose_avatar .fill_detail_container .tab-content>.tab-pane ._patches_collection img {
+    width: 65px !important;
+    margin: 8px;
+  }
+
+  .pro_choose_avatar .fill_detail_container .tab-content>.active ._avatars_collection img {
+    width: 65px !important;
+    margin: 8px;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .pro_choose_avatar {
+    margin: 12px;
+  }
+
+  .pro_choose_avatar ._close_window {
+    padding: 10px 8px;
+  }
+
+  .pro_choose_avatar ._close_window i {
+    font-size: 16px;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile {
+    margin-bottom: 18px;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile img {
+    width: 50px !important;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile .auhtor_name h2 {
+    font-size: 18px;
+    margin-bottom: 4px;
+    line-height: 20px;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile .auhtor_name p {
+    font-size: 13px;
+  }
+
+  .pro_choose_avatar .fill_detail_container .avatar_tabs .nav-link,
+  .pro_choose_avatar .fill_detail_container .avatar_tabs .nav-link.active {
+    padding: 6px 30px !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+  }
+
+  .pro_choose_avatar .fill_detail_container .tab-content>.tab-pane ._patches_collection img {
+    width: 48px !important;
+    margin: 8px;
+  }
+
+  .pro_choose_avatar .fill_detail_container .tab-content>.active ._avatars_collection img {
+    width: 48px !important;
+    margin: 8px;
+  }
+}
+
+
+@media only screen and (max-width: 390px) {
+  .pro_choose_avatar {
+    margin: 10px;
+  }
+
+  .pro_choose_avatar ._close_window {
+    padding: 10px 8px;
+  }
+
+  .pro_choose_avatar ._close_window i {
+    font-size: 16px;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile {
+    margin-bottom: 15px;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile img {
+    width: 47px !important;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile .auhtor_name h2 {
+    font-size: 18px !important;
+    margin-bottom: 2px;
+    line-height: 16px;
+    font-weight: 600;
+  }
+
+  .pro_choose_avatar .fill_detail_container ._user_profile .auhtor_name p {
+    font-size: 12px;
+  }
+
+  .pro_choose_avatar .fill_detail_container .avatar_tabs .nav-link,
+  .pro_choose_avatar .fill_detail_container .avatar_tabs .nav-link.active {
+    padding: 6px 25px !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+
+  .pro_choose_avatar .fill_detail_container .tab-content>.tab-pane ._patches_collection img {
+    width: 43px !important;
+    margin: 6px;
+  }
+
+  .pro_choose_avatar .fill_detail_container .tab-content>.active ._avatars_collection img {
+    width: 43px !important;
+    margin: 6px;
+  }
+}
+// End....
