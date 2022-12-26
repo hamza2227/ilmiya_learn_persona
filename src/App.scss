@@ -297,6 +297,16 @@ body {
         letter-spacing: -0.04em;
         color: #202223;
       }
+
+      h4 {
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: #6D7175;
+        margin-top: 12px;
+        margin-bottom: 0;
+      }
     }
 
     ._user_stacks {
@@ -646,6 +656,11 @@ body {
     font-size: 35px;
   }
 
+  .pro_fill_detail .fill_detail_container ._user_profile h4{
+    font-size: 17px;
+    margin-top: 8px;
+  }
+
   .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks {
     margin: 0 22px;
   }
@@ -691,6 +706,11 @@ body {
   .pro_fill_detail .fill_detail_container ._user_profile p {
     margin-top: 16px;
     font-size: 26px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile h4{
+    font-size: 15px;
+    margin-top: 4px;
   }
 
   .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks {
@@ -744,6 +764,11 @@ body {
     margin-top: 12px;
     font-size: 22px;
     line-height: 38px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile h4{
+    font-size: 13px;
+    margin-top: 0;
   }
 
   .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks {
@@ -804,6 +829,11 @@ body {
     margin-top: 10px;
     font-size: 18px;
     line-height: 28px;
+  }
+
+  .pro_fill_detail .fill_detail_container ._user_profile h4{
+    font-size: 12px;
+    margin-top: 0;
   }
 
   .pro_fill_detail .fill_detail_container ._user_stacks .user_day_streaks {
@@ -1029,4 +1059,5 @@ body {
     margin: 6px;
   }
 }
+
 // End....

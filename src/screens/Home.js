@@ -199,6 +199,23 @@ export default function Index() {
             </div>
             {/* End.... */}
 
+            {/* .....Profile Fill detail */}
+            <div className='pro_fill_detail'>
+                <div className='_close_window'>
+                    <i class="fa-regular fa-xmark"></i>
+                </div>
+
+                <div className='fill_detail_container'>
+                    <div className='_user_profile'>
+                        <img src={require('../images/puppyAvatar.png')} style={{ width: "170px" }} />
+                        <p>Tim Jacob</p>
+                        <h4>Please choose your Avatar</h4>
+                    </div>
+                    <button className='change_profile_btn'>Confirm</button>
+                </div>
+            </div>
+            {/* End.... */}
+
         </div>
 
 
